@@ -5,6 +5,6 @@ export default function robots() {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://inu-george.netlify.app/sitemap.xml',
+    sitemap: 'https://george-delta.vercel.app/sitemap.xml',
   }
 }

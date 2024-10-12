@@ -1,7 +1,7 @@
 export default function sitemap() {
   return [
     {
-      url: 'https://inu-george.netlify.app/',
+      url: 'https://george-delta.vercel.app/',
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 1,

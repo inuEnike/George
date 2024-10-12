@@ -17,12 +17,12 @@ export const metadata = {
   title: "Imperium",
   description: "De Imperium Portfolio",
   openGraph: {
-    url: "https://inu-george.netlify.app",
+    url: "https://george-delta.vercel.app/",
     title: "Imperium",
     description: "De Imperium Portfolio",
     images: [
       {
-        url: "https://inu-george.netlify.app/social-banner.png",
+        url: "https://george-delta.vercel.app/social-banner.png",
         alt: "Social Banner",
       },
     ],
