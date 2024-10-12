@@ -4,6 +4,8 @@ import { Signika } from "next/font/google";
 import { useAppContext } from "@/app/hooks/Context";
 import { GiHamburger } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
+import logo from "@/app//public/my_logo.png";
+import Image from "next/image";
 
 // Load the Google Font
 const signika = Signika({
@@ -16,8 +18,9 @@ const Mobile = () => {
 
   return (
     <div className="md:hidden block my-5">
-      <div className="flex justify-between mx-5">
-        <h2>DE IMPERIUM</h2>
+      <div className="flex justify-between items-center mx-5">
+        {/* <h2>DE IMPERIUM</h2> */}
+        <Image src={logo} height={70} width={70} />
         <div className="">
           {navOpen ? (
             <button className="md:hidden block" onClick={handleNav}>

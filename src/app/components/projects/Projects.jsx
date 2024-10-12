@@ -5,7 +5,7 @@ import Button from "../Button";
 const Projects = () => {
   return (
     <div className="my-10 py-10" id="projects">
-      <h2 className="text-3xl font-bold text-center">My Projects</h2>
+      <h2 className="text-3xl font-bold text-center">My Recent Projects</h2>
 
       <div className="flex flex-col justify-around items-center mx-5 md:mx-0 my-10 s">
         <div className="my-5 ">
@@ -31,7 +31,7 @@ const Projects = () => {
         </div>
         <div className="my-5 ">
           <h2 className="text-[#2e86d3] text-xl uppercase font-bold">
-            Courier Web app
+            Student Expense tracker Web app
           </h2>
           <div className="text-sm py-5">
             <p className="">

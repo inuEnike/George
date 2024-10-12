@@ -4,6 +4,8 @@ import { navItems } from "./data";
 import { Signika } from "next/font/google";
 import Button from "../Button";
 import Mobile from "./Mobile";
+import logo from "@/app/public/my_logo.png";
+import Image from "next/image";
 
 // Load the Google Font
 const signika = Signika({
@@ -16,7 +18,8 @@ const Desktop = () => {
     <header className="">
       <div className="hidden md:grid md:grid-cols-3 md:gap-0 gap-[5rem] grid-cols-2 place-items-center my-6">
         <div className="">
-          <h2>DE IMPERIUM</h2>
+          {/* <h2>DE IMPERIUM</h2> */}
+          <Image src={logo} height={100} width={100} />
         </div>
         <nav className="">
           <ul
